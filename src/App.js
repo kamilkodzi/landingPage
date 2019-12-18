@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
 import Alert from 'react-bootstrap/Alert'
+import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHome} from '@fortawesome/free-solid-svg-icons';
+import LandingJumbotron from './LandingJumbotron';
 
 function App() {
   return (
     <div>
-    <h1>Startup Page</h1>
+      <LandingJumbotron/>
+    <h1 className="HeaderClass"><FontAwesomeIcon icon={faHome} />Startup Page</h1>
     {
       [
         'primary',

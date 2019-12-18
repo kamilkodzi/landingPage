@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext');
+
+.Jumbotron-landing{
+  background-image: url('./landingIMG.jpg');
+  height:100vh;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color:black;
+}
+
+.HeaderClass{
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
   text-align: center;
 }
