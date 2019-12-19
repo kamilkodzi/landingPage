@@ -4,11 +4,13 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHome} from '@fortawesome/free-solid-svg-icons';
 import LandingJumbotron from './LandingJumbotron';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
     <div>
       <LandingJumbotron/>
+      <AboutUs/>
     <h1 className="HeaderClass"><FontAwesomeIcon icon={faHome} />Startup Page</h1>
     {
       [

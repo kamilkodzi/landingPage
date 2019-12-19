@@ -5,7 +5,12 @@
   height:100vh;
   background-size: cover;
   font-family: 'Lato', sans-serif;
-  color:black;
+  color:whitesmoke;
+}
+
+.about-us{
+  height: 100vh;
+  color: whitesmoke;
 }
 
 .HeaderClass{
