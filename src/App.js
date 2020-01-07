@@ -5,13 +5,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHome} from '@fortawesome/free-solid-svg-icons';
 import LandingJumbotron from './LandingJumbotron';
 import AboutUs from './AboutUs';
+import Products from './Products';
 
 function App() {
   return (
     <div>
+
       <LandingJumbotron/>
       <AboutUs/>
-    <h1 className="HeaderClass"><FontAwesomeIcon icon={faHome} />Startup Page</h1>
+      <Products/>
+      
+    {/* <h1 className="HeaderClass"><FontAwesomeIcon icon={faHome} />Startup Page</h1>
     {
       [
         'primary',
@@ -27,7 +31,7 @@ function App() {
           This is a {variant} alert—check it out!
         </Alert>
       ))
-    }
+    } */}
     </div>
   );
 }
