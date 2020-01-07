@@ -6,6 +6,7 @@ import {faHome} from '@fortawesome/free-solid-svg-icons';
 import LandingJumbotron from './LandingJumbotron';
 import AboutUs from './AboutUs';
 import Products from './Products';
+import Subscribe from './Subscribe';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <LandingJumbotron/>
       <AboutUs/>
       <Products/>
+      <Subscribe/>
       
     {/* <h1 className="HeaderClass"><FontAwesomeIcon icon={faHome} />Startup Page</h1>
     {
